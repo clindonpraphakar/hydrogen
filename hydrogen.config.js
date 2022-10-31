@@ -10,7 +10,7 @@ export default defineConfig({
     storefrontToken:
       // @ts-ignore
       Oxygen?.env?.PUBLIC_STOREFRONT_API_TOKEN ||
-      '4bf6d4706110bd8fe5d1fce646c3fe51',
+      '',
     privateStorefrontToken:
       // @ts-ignore
       Oxygen?.env?.PRIVATE_STOREFRONT_API_TOKEN,
